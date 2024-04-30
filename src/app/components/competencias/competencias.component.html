@@ -1,0 +1,68 @@
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 position-fixed" style="height: 100vh;">
+            <div class="panel panel-default" style="height: 100%;">
+                <div class="panel-body">
+                    <img src="assets\images\UNADAC.png" alt="Descripción de la imagen">
+                    <div class="text-center">
+                        <br>
+                        <div class="dropdown">
+                            <button class="dropbtn btn-block" style="width: 200px;">Introducción <i class="fa fa-caret-down"></i></button>
+                            <div class="dropdown-content">
+                                <a href="/actividad1">Actividad 1</a>
+                                <a href="https://calendar.google.com/calendar/u/0/r">Actividad 2</a>
+                            </div> 
+                        </div>
+                        <br>
+                        <br>
+                        <div class="dropdown">
+                            <button class="dropbtn btn-block" style="width: 200px;">Explicación <i class="fa fa-caret-down"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-10 offset-md-2">
+
+            <br>
+            <div class="container-fluid">
+                <div class="card">
+                    <h2 class="card-header text-left">Ejercicio 1</h2>
+                    <div class="card-body">
+                    <form id="myForm" onsubmit="return validar()">
+                        <div class="form-group  mx-3">
+                        <legend>Responder verdadero o falso según sea el caso.</legend>
+                        <p>Las tareas se conciben como las acciones concretas que deben realizar los evaluados en una situación con el fin recoger las evidencias necesarias.</p>
+                        <input type="radio" class="mx-2"> Verdadero
+                        <input type="radio" class="mx-2"> Falso <br>
+                        
+                        <br><br>
+                        <p>El DCE permite realizar afirmaciones válidas sobre las habilidades de los estudiantes evaluados a través de un ejercicio conceptual.</p>
+                        <input type="radio" class="mx-2"> Verdadero
+                        <input type="radio" class="mx-2"> Falso <br>
+
+                        <br><br>
+                        <p>Las afirmaciones son enunciados sobre las competencias y describen si un estudiante resuelve correctamente un determinado conjunto de tareas.</p>
+                        <input type="radio" class="mx-2"> Verdadero
+                        <input type="radio" class="mx-2"> Falso <br>
+
+                        <br><br>
+                        <p>Un texto argumentativo busca explicar con claridad y certeza diferentes fenómenos.</p>
+                        <input type="radio" class="mx-2"> Verdadero
+                        <input type="radio" class="mx-2"> Falso <br>
+
+                        </div>
+                        <input type="submit" class="btn btn-light" id="boton" value="Comprobar">
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>
+
